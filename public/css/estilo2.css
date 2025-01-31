@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(135deg, #27AE60 0%, #2ECC71 100%); /* Verde con gradiente */
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login-box {
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.login-logo a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card-body {
+    padding: 20px;
+    background: rgba(46, 204, 113, 0.7); /* Verde con transparencia */
+    border-radius: 10px;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.input-group-text {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background: #2ECC71; /* Verde brillante */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #27AE60; /* Verde más oscuro para hover */
+}
+
+.text-center a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.text-center {
+    color: #c8c9e4;
+}
+
+.login-box-msg {
+    font-weight: bolder;
+}
+
+.titulo {
+    color: #fff;
+    font-weight: bold;
+}

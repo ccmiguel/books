@@ -1,0 +1,83 @@
+/* Fondo suave y contraste para la interfaz */
+body {
+    background-color: #f7f7f7;  /* Fondo suave */
+    color: #333;  /* Texto en gris oscuro para mejorar la lectura */
+}
+
+.card {
+    border-radius: 10px;  /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+}
+
+.card-header {
+    background-color: #007bff;  /* Azul suave para la cabecera */
+    color: white;  /* Texto blanco para resaltar */
+    border-top-left-radius: 10px;  /* Bordes redondeados */
+    border-top-right-radius: 10px;
+}
+
+.card-footer {
+    background-color: #f8f9fa;  /* Fondo claro para el pie de página */
+    border-bottom-left-radius: 10px;  /* Bordes redondeados */
+    border-bottom-right-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;  /* Aumentar tamaño del título */
+}
+
+.table-dark {
+    background-color: #343a40;  /* Fondo oscuro para la tabla */
+    color: #fff;  /* Texto blanco para la tabla */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #007bff;  /* Color de hover suave en azul */
+}
+
+.btn-info {
+    background-color: #17a2b8;  /* Azul más suave para botones de información */
+    border-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;  /* Un tono más oscuro en hover */
+    border-color: #117a8b;
+}
+
+.btn-danger {
+    background-color: #dc3545;  /* Rojo para botones de acción peligrosa */
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;  /* Rojo oscuro en hover */
+    border-color: #bd2130;
+}
+
+.btn-success {
+    background-color: #28a745;  /* Verde para botones de acción exitosa */
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;  /* Verde oscuro en hover */
+    border-color: #1e7e34;
+}
+
+.pagination .page-link {
+    background-color: #fff;  /* Fondo blanco para las páginas */
+    border-color: #ddd;  /* Borde suave */
+    color: #007bff;  /* Texto azul */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;  /* Fondo azul cuando está activo */
+    border-color: #007bff;
+    color: white;  /* Texto blanco en el ítem activo */
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;  /* Fondo gris claro en hover */
+    color: #007bff;
+}
